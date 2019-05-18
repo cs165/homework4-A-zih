@@ -25,7 +25,7 @@ class MenuScreen {
   }
   onClick(event){
     event.preventDefault();
-    url = "http://api.giphy.com/v1/gifs/search?q="+ t.value +"&api_key=VZ7FFJUrfrJrkWSEGvKsVtBp6wNRiyxZ";
+    url = "https://api.giphy.com/v1/gifs/search?q="+ t.value +"&api_key=VZ7FFJUrfrJrkWSEGvKsVtBp6wNRiyxZ";
     app.music.gif.fetch_gif(url);
   }
   show(){
